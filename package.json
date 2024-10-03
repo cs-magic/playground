@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "run-p --print-label 'dev:*'",
+    "dev": "run-p -l 'dev:*'",
     "dev:next": "PORT=41002 next dev",
     "dev:deps": "yarn build:deps --watch --preserveWatchOutput",
     "build": "run-s 'build:*'",
