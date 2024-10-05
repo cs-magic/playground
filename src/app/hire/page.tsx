@@ -1,6 +1,7 @@
 "use client";
 
-import { NeuroraBanner } from "@assets/branding/neurora/neurora-banner.tsx";
+import { NeuroraBannerSVG } from "@assets/branding/neurora/neurora-banner.svg.ts";
+// import { NeuroraBanner } from "@assets/branding/neurora/neurora-banner.tsx";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { cn } from "@cs-magic/shadcn/lib/utils";
@@ -27,7 +28,7 @@ const InternshipPoster = () => {
         font.className,
       )}
     >
-      <NeuroraBanner />
+      <NeuroraBannerSVG />
 
       <div className="flex flex-col gap-4 justify-between items-start">
         <div className="w-full flex flex-col gap-2">
