@@ -3,7 +3,7 @@
 import { MarkAvatarJPG } from "@assets/branding/mark/mark-avatar.jpg.ts";
 import { MarkWechatQrcodeSVG } from "@assets/branding/mark/mark-wechat-qrcode-svg.ts";
 import { MarkWxmpSVG } from "@assets/branding/mark/mark-wxmp-svg.ts";
-import { NeuroraSVG } from "@assets/branding/neurora/neurora.svg.ts";
+import { NeuroraSVG } from "@assets/branding/neurora/neurora_logo_black_white_1280-svg.ts";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
