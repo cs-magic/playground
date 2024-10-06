@@ -1,9 +1,9 @@
 "use client";
 
-import { MarkAvatarJPG } from "@assets/branding/mark/mark-avatar.jpg.ts";
-import { MarkWechatQrcodeSVG } from "@assets/branding/mark/mark-wechat-qrcode-svg.ts";
-import { MarkWxmpSVG } from "@assets/branding/mark/mark-wxmp-svg.ts";
-import { NeuroraSVG } from "@assets/branding/neurora/neurora_logo_black_white_1280-svg.ts";
+import MarkAvatarJPG from "@assets/branding/mark/mark-avatar.jpg";
+import MarkWechatQrcodeSVG from "@assets/branding/mark/mark-wechat-qrcode.svg";
+import MarkWxmpSVG from "@assets/branding/mark/mark-wxmp.svg";
+import LogoSVG from "@assets/branding/neurora/neurora_logo_white_trans_1280.svg";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
@@ -35,7 +35,7 @@ const BusinessCardCore = () => {
                   </h1>
                   <div className="flex items-center mt-2">
                     {/*<Zap className="w-5 h-5 text-yellow-400" />*/}
-                    <NeuroraSVG width={32} />
+                    <LogoSVG width={32} />
 
                     <p className="text-xl font-semibold">
                       飞脑科技创始人 & CEO
