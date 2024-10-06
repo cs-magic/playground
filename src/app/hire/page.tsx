@@ -1,6 +1,6 @@
 "use client";
 
-import { NeuroraBannerSVG } from "@assets/branding/neurora/neurora-banner.svg.ts";
+import { NeuroraBannerSVG } from "@assets/branding/neurora/neurora-banner-svg.ts";
 // import { NeuroraBanner } from "@assets/branding/neurora/neurora-banner.tsx";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
