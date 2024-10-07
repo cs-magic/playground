@@ -8,7 +8,7 @@ import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
 import { Button } from "@cs-magic/shadcn/ui/button";
-import { Cpu, Globe, Terminal } from "lucide-react";
+import { Cpu, Globe, Target, Terminal } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -33,12 +33,12 @@ const BusinessCardCore = () => {
                   <h1 className="text-4xl font-bold tracking-tight">
                     南川 Mark
                   </h1>
-                  <div className="flex items-center mt-2">
+                  <div className="flex items-center mt-2 gap-2">
                     {/*<Zap className="w-5 h-5 text-yellow-400" />*/}
                     <LogoSVG width={32} />
 
                     <p className="text-xl font-semibold">
-                      飞脑科技创始人 & CEO
+                      Every Human is a Magician.
                     </p>
                   </div>
                 </div>
@@ -53,8 +53,8 @@ const BusinessCardCore = () => {
                   <p> A Thinker，热衷于记录与思考人生</p>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Globe className="w-4 h-4 text-blue-400" />
-                  <p>专注于赋能超级个体</p>
+                  <Target className="w-4 h-4 text-blue-400" />
+                  <p>目前专注于赋能超级个体</p>
                 </div>
               </div>
             </div>

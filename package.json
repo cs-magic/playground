@@ -1,5 +1,5 @@
 {
-  "name": "playground",
+  "name": "@cs-magic/playground",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "start": "PORT=41002 next start"
   },
   "dependencies": {
+    "lucide-react": "^0.447.0",
     "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18"
