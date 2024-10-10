@@ -4,6 +4,7 @@ import MarkAvatarJPG from "@assets/branding/mark/mark-avatar.jpg";
 import MarkWechatQrcodeSVG from "@assets/branding/mark/mark-wechat-qrcode.svg";
 import MarkWxmpSVG from "@assets/branding/mark/mark-wxmp.svg";
 import LogoSVG from "@assets/branding/neurora/neurora_logo_white_trans_1280.svg";
+import BannerSVG from "@assets/branding/neurora/neurora-banner-current-trans.svg";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
@@ -35,10 +36,12 @@ const BusinessCardCore = () => {
                   </h1>
                   <div className="flex items-center mt-2 gap-2">
                     {/*<Zap className="w-5 h-5 text-yellow-400" />*/}
-                    <LogoSVG width={32} />
+                    {/*<LogoSVG width={32} />*/}
+                    <BannerSVG height={32} />
 
                     <p className="text-xl font-semibold">
-                      Every Human is a Magician.
+                      {/*Every Human is a Magician.*/}
+                      {/*人人都是魔法师*/}
                     </p>
                   </div>
                 </div>
