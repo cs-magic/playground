@@ -1,20 +1,7 @@
-import { Navbar } from "@cs-magic/react/components/navbar";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@cs-magic/shadcn/ui/popover";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-} from "@cs-magic/shadcn/ui/select";
-import type { Metadata } from "next";
-import { Poor_Story } from "next/dist/compiled/@next/font/dist/google";
-import localFont from "next/font/local";
 import "@assets/styles/main.css";
-import Link from "next/link";
+import { Navbar } from "@cs-magic/react/components/navbar";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -47,7 +34,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar productBanner={<Banner />} />
-        {children}
+
+        <div className="bg-gradient-to-br from-purple-600 to-blue-500 flex items-center justify-center p-4 h-screen overflow-hidden">
+          {children}
+        </div>
       </body>
     </html>
   );
