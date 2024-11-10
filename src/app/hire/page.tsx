@@ -1,6 +1,6 @@
 "use client";
 
-import { NeuroraBanner } from "@assets/branding/neurora/neurora-banner.tsx";
+import NeuroraBanner  from "@assets/branding/neurora/neurora-banner-current-trans.svg";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { cn } from "@cs-magic/shadcn/lib/utils";
@@ -12,9 +12,9 @@ import { JobComp, jobs } from "./job";
 
 const POSTER_ID = "poster";
 
-const font = localFont({
-  src: "../../../../../assets/fonts/SourceHanSerifCN-Bold.otf",
-});
+// const font = localFont({
+//   src: "../../../../../assets/fonts/SourceHanSerifCN-Bold.otf",
+// });
 
 const InternshipPoster = () => {
   return (
@@ -24,7 +24,7 @@ const InternshipPoster = () => {
         // "bg-background text-foreground",
         "bg-gradient-to-r from-purple-600 to-blue-500 text-white",
         "p-4 w-[360px] overflow-hidden ",
-        font.className,
+        // font.className,
       )}
     >
       <NeuroraBanner />

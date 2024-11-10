@@ -1,9 +1,9 @@
 "use client";
 
-import { MarkAvatarJPG } from "@assets/branding/mark/mark-avatar.jpg.ts";
-import { MarkWechatQrcodeSVG } from "@assets/branding/mark/mark-wechat-qrcode.svg.ts";
-import { MarkWxmpSVG } from "@assets/branding/mark/mark-wxmp.svg.ts";
-import { NeuroraSVG } from "@assets/branding/neurora/neurora.svg.ts";
+import  MarkAvatarJPG from "@assets/branding/mark/mark-avatar.jpg";
+import  MarkWechatQrcodeSVG from "@assets/branding/mark/mark-wechat-qrcode.svg";
+import  MarkWxmpSVG from "@assets/branding/mark/mark-wxmp.svg";
+import NeuroraSVG  from "@assets/branding/neurora/neurora-banner-current-trans.svg";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
