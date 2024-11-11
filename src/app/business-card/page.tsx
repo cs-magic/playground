@@ -3,13 +3,12 @@
 import MarkAvatarJPG from "@assets/branding/mark/mark-avatar.jpg";
 import MarkWechatQrcodeSVG from "@assets/branding/mark/mark-wechat-qrcode.svg";
 import MarkWxmpSVG from "@assets/branding/mark/mark-wxmp.svg";
-import LogoSVG from "@assets/branding/neurora/neurora_logo_white_trans_1280.svg";
-import BannerSVG from "@assets/branding/neurora/neurora-banner-current-trans.svg";
+import NeuroraSVG from "@assets/branding/neurora/neurora.svg";
 import { element2image } from "@cs-magic/common-frontend/element2image";
 import { FlexContainer } from "@cs-magic/react/components/flex-container";
 import { AspectRatio } from "@cs-magic/shadcn/ui/aspect-ratio";
 import { Button } from "@cs-magic/shadcn/ui/button";
-import { Cpu, Globe, Target, Terminal } from "lucide-react";
+import { Cpu, Globe, Terminal } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -34,14 +33,12 @@ const BusinessCardCore = () => {
                   <h1 className="text-4xl font-bold tracking-tight">
                     南川 Mark
                   </h1>
-                  <div className="flex items-center mt-2 gap-2">
+                  <div className="flex items-center mt-2">
                     {/*<Zap className="w-5 h-5 text-yellow-400" />*/}
-                    {/*<LogoSVG width={32} />*/}
-                    <BannerSVG height={32} />
+                    <NeuroraSVG width={32} />
 
                     <p className="text-xl font-semibold">
-                      {/*Every Human is a Magician.*/}
-                      {/*人人都是魔法师*/}
+                      飞脑科技创始人 & CEO
                     </p>
                   </div>
                 </div>
@@ -56,8 +53,8 @@ const BusinessCardCore = () => {
                   <p> A Thinker，热衷于记录与思考人生</p>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Target className="w-4 h-4 text-blue-400" />
-                  <p>目前专注于赋能超级个体</p>
+                  <Globe className="w-4 h-4 text-blue-400" />
+                  <p>专注于赋能超级个体</p>
                 </div>
               </div>
             </div>

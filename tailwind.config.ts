@@ -1,7 +1,7 @@
 import tailwindConfig from "../../tailwind.config";
 
-tailwindConfig.content = [ 
-        // deps // attention to the prefix
+tailwindConfig.content = [
+    // deps // attention to the prefix
     "../../node_modules/@cs-magic/common/dist/**/*",
     "../../node_modules/@cs-magic/common-frontend/dist/**/*",
     "../../node_modules/@cs-magic/shadcn/dist/**/*",
